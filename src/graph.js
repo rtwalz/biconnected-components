@@ -6,7 +6,7 @@ function create_array(length) {
     array.push([]);
   }
   return array;
-}
+} 
 
 
 class Edge {
