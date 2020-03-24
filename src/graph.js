@@ -33,7 +33,8 @@ class Graph {
   //Function to add an edge into the graph
   addEdge(v, w) {
     this.adj[v].push(w);
-    this.E++;
+    this.adj[w].push(v);
+    this.E = this.E + 2;
   }
 
   // A recursive function that finds and prints strongly connected
