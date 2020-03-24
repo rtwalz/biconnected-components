@@ -27,7 +27,7 @@ class Graph {
     this.E = 0;     // No. of Edges
     this.adj = [];  // Adjacency List
 
-    //this.adj = create_array(v);
+    this.adj = create_array(v);
   }
 
   //Function to add an edge into the graph
